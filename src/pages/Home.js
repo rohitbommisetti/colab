@@ -27,7 +27,7 @@ const Home = (props) => {
                     sx={{
                         marginTop: '18px'
                     }}
-                    href="https://airtable.com/shrHwu5sIfueizeO8"
+                    href="https://forms.gle/VLxUJxHjJSSPpJT98"
                 >Join us</Button>
             </div>
         </div>

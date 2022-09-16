@@ -4,9 +4,8 @@ import { Tabs, Tab, styled } from '@mui/material';
 const routes = ['/', '/about', 'team'];
 
 const ColabTabs = styled(Tabs)({
-  '& .MuiTabs-indicator': {
-    backgroundColor: '#1890ff',
-  },
+  backgroundColor: "white",
+  boxShadow: "0 0 20px 30px white",
 });
 
 const ColabTab = styled((props) => <Tab disableRipple {...props} />)(({ theme }) => ({
@@ -59,9 +58,6 @@ const Navigation = (props) => {
       </nav>
       <nav className="navbar fixed-bottom navbar-light d-block d-lg-none bottom-tab-nav" role="navigation">
         <ColabTabs
-          sx={{
-            margin: '27px'
-          }}
         >
           <div className=" d-flex flex-row justify-content-around w-100">
             <ColabTab value={routes[0]} label="Home" component={Link} to={routes[0]} />

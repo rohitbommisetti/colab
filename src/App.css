@@ -1,12 +1,16 @@
 html, body {
-width: 100%;
-height: 100%;
-margin: 0px;
-padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .wrap-home {
   display: inline-block;
+}
+
+.wrap-about {
+  margin: 27px;
 }
 
 .base {
@@ -40,9 +44,6 @@ h2 {
   padding: 0px;
 
 }
-
-.join-btn {}
-
 
 @font-face {
   font-family: 'MonumentExtended';
