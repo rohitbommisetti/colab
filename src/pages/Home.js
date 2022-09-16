@@ -1,10 +1,19 @@
 import React from 'react';
 import { Typography, Button } from '@mui/material';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import { Link } from 'react-router-dom';
 
 const Home = (props) => {
     return (
         <div className='base'>
             <div className='wrap-home'>
+                <Link href="https://www.instagram.com/colabpitt/" sx={{ marginBottom: '10px' }}>
+                    <Typography variant="b2" align='center' sx={{ fontFamily: 'MonumentExtended' }}>
+                        <InstagramIcon />
+                        #pittcolab
+                    </Typography>
+                </Link>
+
                 <Typography variant="h2" component="h1" align='center'>
                     PITT
                 </Typography>
@@ -17,7 +26,6 @@ const Home = (props) => {
                         fontSize: '1.5rem',
                         marginRight: '27px',
                         marginLeft: '27px'
-
                     }}
                 >
                     Because the next generation of technology products won’t be built in the classroom
