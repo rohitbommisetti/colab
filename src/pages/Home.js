@@ -1,16 +1,14 @@
 import React from 'react';
 import { Typography, Button } from '@mui/material';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link } from 'react-router-dom';
 
 const Home = (props) => {
     return (
         <div className='base'>
             <div className='wrap-home'>
-                <Link href="https://www.instagram.com/colabpitt/" sx={{ marginBottom: '10px' }}>
+                <Link sx={{ marginBottom: '10px' }} onClick={event =>  window.location.href='https://www.instagram.com/pittcolab/'}>
                     <Typography variant="b2" align='center' sx={{ fontFamily: 'MonumentExtended' }}>
-                        <InstagramIcon />
-                        #pittcolab
+                        @pittcolab
                     </Typography>
                 </Link>
 
