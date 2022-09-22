@@ -54,6 +54,7 @@ const About = (props) => {
           sx={{
             fontSize: '1.5rem',
             lineHeight: '29px',
+            paddingBottom: '100px'
           }}>
           Inspired by
           <Typography>
