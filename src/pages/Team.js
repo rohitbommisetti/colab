@@ -57,6 +57,24 @@ const Team = (props) => {
           </a>
         </div>
       </div>
+      <div class="flex flex-col items-center w-full gap-y-4 md:w-1/2 lg:flex-row lg:items-end lg:w-auto lg:gap-x-3 lg:gap-y-0">
+        <h3 class="text-7xl font-semibold">Flora</h3>
+        <div class="flex gap-y-4 text-center lg:text-left lg:gap-y-1 flex-col">
+          <div class="flex gap-x-2 items-center">
+            <div class="bg-inherit border rounded-full px-4">
+              Marketing
+            </div>
+          </div>
+          <a
+            class="text-[#5c75f5] hover:text-[#90bcfe] transition-colors "
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/flora-stein-b45372208/"
+          >
+            @flora
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
