@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div class="flex lg:justify-center flex-wrap lg:gap-x-8 gap-y-12 lg:gap-y-20 py-20">
+    <div class="flex lg:justify-center flex-wrap lg:gap-x-8 gap-y-12 lg:gap-y-20 py-20 text-white">
       <div class="flex flex-col items-center w-full gap-y-4 md:w-1/2 lg:flex-row lg:items-end lg:w-auto lg:gap-x-3 lg:gap-y-0">
         <h3 class="text-7xl font-semibold">Rohit</h3>
         <div class="flex gap-y-4 text-center lg:text-left lg:gap-y-1 flex-col">
