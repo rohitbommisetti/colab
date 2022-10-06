@@ -17,7 +17,7 @@ export default function Join() {
           </h2>
         </div>
         <br />
-        <div className="items-center justify-center flex -ml-8">
+        <div className="items-center justify-center flex">
           <a
             className="flex flex-row font-thin text-2xl lg:text-sm mt-24 lg:mt-12 text-white hover:text-gray-400"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfMNCvi5iMo7VEkM6LjIwlkGRwEAXWVxMPR6-YWtA02ZcEC7Q/viewform"
