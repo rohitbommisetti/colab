@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function Join() {
-    return (
-        <div className="bg-neutral-900">
+  return (
+    <div className="bg-neutral-900">
       <img
         className="lg:absolute lg:bottom-0 lg:left-0 p-9"
         src="/img/logo.png"
@@ -10,10 +10,14 @@ export default function Join() {
       />
       <div className="-space-y-5 lg:scale-150 align-middle max-w-md mx-auto mt-32 lg:mt-72 p-9 ">
         <div>
-          <img className="mb-0" src="/img/long-logo.png" alt="COLAB Long Logo" />
-          <h2 className="text-start text-2xl lg:text-sm text-slate-50 font-thin -mt-2 mr-10">
+          <img
+            className="mb-0"
+            src="/img/long-logo.png"
+            alt="COLAB Long Logo"
+          />
+          <h2 className="text-start text-2xl lg:text-sm text-slate-50 font-thin mt-5">
             Because the next generation of technology products won’t be built in
-            the classNameroom
+            the classroom.
           </h2>
         </div>
         <br />
@@ -33,7 +37,7 @@ export default function Join() {
           </a>
         </div>
       </div>
-{/*       <div className="absolute bottom-0 right-0 space-x-8 p-9 text-lg">
+      {/*       <div className="absolute bottom-0 right-0 space-x-8 p-9 text-lg">
         <a className="text-white" href="/">
           Join us
         </a>
@@ -45,5 +49,5 @@ export default function Join() {
         </a>
       </div> */}
     </div>
-    )
+  );
 }

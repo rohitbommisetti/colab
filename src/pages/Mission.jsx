@@ -3,6 +3,11 @@ import React from "react";
 export default function Mission() {
   return (
     <div class="max-w-3xl mx-auto pb-28 pt-10">
+      <img
+        className="lg:absolute lg:bottom-0 lg:left-0 p-9"
+        src="/img/logo.png"
+        alt="COLAB Logo"
+      />ß
       <article class="prose lg:prose-xl text-lg text-white font-extralight p-8">
         <h1 class="text-white font-semibold">Our Mission.</h1>
         <p>
