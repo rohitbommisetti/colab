@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/leonatajeff/colab.git"
   },
-  "author": "",
+  "author": "Jeff Leonata",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leonatajeff/colab/issues"
@@ -32,5 +32,17 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
